@@ -12,12 +12,16 @@ public class Calculator
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        var num1 = input.nextInt();
-        var num2 = input.nextInt();
+        System.out.println("Enter your expressions: ");
+        System.out.println("Enter your first number: ");
+        double num1 = input.nextInt();
         
-        var add = num1 + num2;
-        var subtract = num1 - num2;
-        var multiple = num1 * num2;
+        System.out.println("Enter your next number: ");
+        double num2 = input.nextInt();
+        
+        double add = num1 + num2;
+        double subtract = num1 - num2;
+        double multiple = num1 * num2;
         double division = num1 / num2;
         
         System.out.println("Addition: " + add);

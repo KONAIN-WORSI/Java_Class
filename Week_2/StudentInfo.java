@@ -12,10 +12,14 @@ public class StudentInfo
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        System.out.print("Enter your following information: ");
-        
+        System.out.println("Enter your following information: ");
+        System.out.println("Enter your name: ");
         var studentName = input.nextLine();
+        
+        System.out.println("Enter your age: ");
         var age = input.nextInt();
+        
+        System.out.println("Enter your GPA: ");
         var gpa = input.nextDouble();
         
         System.out.println("Student Name: " + studentName);

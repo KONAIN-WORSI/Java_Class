@@ -12,14 +12,20 @@ public class AaushadiPasal
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        var medicineName = input.nextLine();
-        var medicinePrice = input.nextInt();
-        var medicineQuantity = input.nextInt();
-        var total = medicinePrice * medicineQuantity;
+        System.out.println("Enter medicine name: ");
+        String medicineName = input.nextLine();
+        
+        System.out.println("Enter the price of medicine: ");
+        int medicinePrice = input.nextInt();
+        
+        System.out.println("Enter the quantity of the medicine: ");
+        int medicineQuantity = input.nextInt();
+        
+        int total = medicinePrice * medicineQuantity;
         
         System.out.println("=================================");
-        System.out.printf("%-40s %-10s %-10s\n", "Name","Price", "Quantity");
-        System.out.printf("%-40s %10s %6s\n",medicineName,medicinePrice, + medicineQuantity);
+        System.out.printf("%-20s %-10s %-10s %-10s\n", "Name","Price", "Quantity", "Total");
+        System.out.printf("%-20s %6s %6s %10s\n",medicineName,medicinePrice, + medicineQuantity, + total);
         System.out.println("=================================");
         
         
