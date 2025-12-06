@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GpaGradeConversion
+comment0.text=\n\ This\ program\ converts\ GPA\ into\ a\ specific\ grade.\n\n\ @author\ Konain\ Worsi\n\ @version\ 28.11\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
