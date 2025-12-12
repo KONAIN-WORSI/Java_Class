@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 #BlueJ class context
 comment0.target=StudentInfo
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Week2Workshop\ here.\r\n\r\n\ @author\ Konain\ Worsi\r\n\ @version\ 11.14.25\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2
+=======
+#BlueJ class context
+comment0.target=StudentInfo
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Week2Workshop\ here.\r\n\r\n\ @author\ Konain\ Worsi\r\n\ @version\ 11.14.25\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
+>>>>>>> e5b90a2 (Done some workshop questions)

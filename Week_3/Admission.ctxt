@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 #BlueJ class context
 comment0.target=Admission
 comment0.text=\r\n\ This\ program\ hanldes\ admission\ related\ operations.\r\n\r\n\ @author\ Konain\ Worsi\r\n\ @version\ 19.11\r\n
 comment1.params=agrs
 comment1.target=void\ main(java.lang.String[])
 numComments=2
+=======
+#BlueJ class context
+comment0.target=Admission
+comment0.text=\r\n\ This\ program\ hanldes\ admission\ related\ operations.\r\n\r\n\ @author\ Konain\ Worsi\r\n\ @version\ 19.11\r\n
+comment1.params=agrs
+comment1.target=void\ main(java.lang.String[])
+numComments=2
+>>>>>>> e5b90a2 (Done some workshop questions)
