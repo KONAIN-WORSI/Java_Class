@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=KhanaGharMenu
+comment1.params=itemName\ category\ price\ isVegeterian\ isAvailable
+comment1.target=MenuItem(java.lang.String,\ java.lang.String,\ int,\ boolean,\ boolean)
+comment2.params=
+comment2.target=void\ DisplayMenu()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
