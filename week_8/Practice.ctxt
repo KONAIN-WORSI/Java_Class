@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Practice
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Practice\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Practice()
+comment2.params=name\ age\ className\ marks
+comment2.target=Practice(java.lang.String,\ int,\ java.lang.String,\ int)
+comment3.params=a\ b
+comment3.target=int\ toDisplay(int,\ int)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
