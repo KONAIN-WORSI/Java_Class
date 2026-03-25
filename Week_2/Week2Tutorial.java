@@ -14,25 +14,25 @@ public class Week2Tutorial
         Scanner input = new Scanner(System.in);
         
         
-        var math = 50;
-        var science = 30;
-        var programming = 80;
+        int math = 50;
+        int science = 30;
+        int programming = 80;
         
-        var totalMarks = math + science + programming;
-        var totalPercentage = (totalMarks / 300.00) * 100;
-        var result = (math >= 40 && science >= 40 && programming >= 40) ? "Pass" : "Fail";
+        int totalMarks = math + science + programming;
+        double totalPercentage = (totalMarks / 300.00) * 100;
+        String result = (math >= 40 && science >= 40 && programming >= 40) ? "Pass" : "Fail";
         
         //  var fname = "Konain";
         //  var lname = "Worsi";
         
         System.out.println("Enter your first name");
-        var fname = input.nextLine();
+        String fname = input.nextLine();
         
         System.out.println("Enter your last name");
-        var lname = input.nextLine();
+        String lname = input.nextLine();
         
         
-        var name = fname + " " + lname;
+        String name = fname + " " + lname;
         
         
         System.out.println(" \'Hello', " + name);

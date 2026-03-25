@@ -18,11 +18,11 @@ public class WaterLevelMonitor
         
         System.out.println("Enter Water level: ");
         
-        var waterLevel = input.nextInt();
+        int waterLevel = input.nextInt();
         
         System.out.println("The current Water level is: " + waterLevel);
         
-        var waterLevelMonitor = (waterLevel >= water_warning) ? "Warning: Water level has reached 1000L or more!" : "Status: Normal";
+        String waterLevelMonitor = (waterLevel >= water_warning) ? "Warning: Water level has reached 1000L or more!" : "Status: Normal";
         
         System.out.println("Status of your water tank: " + waterLevelMonitor);
         
